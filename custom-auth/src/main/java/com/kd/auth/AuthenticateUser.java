@@ -25,11 +25,11 @@ import com.amazonaws.services.cognitoidp.model.RespondToAuthChallengeResult;
 public class AuthenticateUser {
 
 	public static void main(String[] args) {
-		String userPool = "eVJEnGoHO";
-		String username = "kd-test";
-		String password = "admin@123";
-		String clientId = "12t6r2hk058q13u4eeaci148dp";
-		String region = "us-east-1";
+		String userPool = "";// Example: eVJE***HO
+		String username = "";
+		String password = "";
+		String clientId = ""; //Example: 12t6r2hk058q13u*****i148dp
+		String region = ""; //Example: us-east-1
 
 		AWSCognitoIdentityProvider awsCognitoIdentityProvider = AWSCognitoIdentityProviderClient.builder()
 				.withRegion(region).build();

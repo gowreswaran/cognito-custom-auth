@@ -1,4 +1,9 @@
 # cognito-custom-auth
+# Pre requisites
+1. A Valid AWS Cognito User Pool with App Client ID <br/><br/>
+2. Valid Confirmed User in the User Pool <br/><br/>
+
+# Steps to Authenticate a User in Cognito
 1. Import the Project as Maven Project<br/><br/>
 2. Edit custom-auth/src/main/java/com/kd/auth/AuthenticateUser.java and update userPool, username, password, clientId, region variables.<br/><br/>
 3. Create a Nodejs Lambda Function and replace the content with content from define-custom-auth-lambda-trigger.js<br/><br/>
